@@ -13,7 +13,7 @@ if (isset($_POST['sub'])) {
         $res = $txt1 * $txt2;
     else if ($oprnd == "/")
         $res = $txt1 / $txt2;
-        echo "$res";
+        echo "Result=$res";
 
 }
 ?>
